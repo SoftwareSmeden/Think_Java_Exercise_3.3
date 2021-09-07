@@ -26,7 +26,7 @@ public class Main {
         seconds = (howManySeconds % 60);
 
         //Output
-        System.out.printf("Total amount of seconds converted to hours, minutes and seconds: %d", howManySeconds);
+        System.out.printf("The entered amount is converted to hours, minutes and seconds: %d", howManySeconds);
         System.out.printf(" = %d hours,", hours);
         System.out.printf(" %d minutes,", minutes);
         System.out.printf(" %d seconds", seconds);
